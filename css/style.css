@@ -332,7 +332,11 @@ nav ul li:hover:after{
 
 @media (max-width: 740px){
     #locais .locais-item img{
-        width: 250px;
+        width: 300px;
+        margin: 0;
+    }
+    #locais .locais-item .texto-do-local{
+        width: 300px;
     }
 }
 /* 6 - section newsletter */
@@ -350,16 +354,20 @@ nav ul li:hover:after{
     background: #252525;
     text-transform: uppercase;
     font-size: 1.5em;
-    color:#fff;
-    padding: 13px 0px;
+    color: #fff;
+    padding: 13px;
+    border: none;
+    font-family: Georgia, serif;
 }
 
 #newsletter input{
     padding: 10px;
-    border: 3px solid black;
+    border: 3px solid #252525;
     font-size: 1.5em;
     font-style: italic;
     background: none;
+    float: left;
+    font-family: Georgia, serif
 }
 
 #newsletter .submissao-email{
