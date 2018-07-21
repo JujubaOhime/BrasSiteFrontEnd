@@ -8,6 +8,7 @@ body{
     font-family: Georgia, serif;
     color: #252525;
 }
+
 .container{
     max-width: 960px;
     margin: 0 auto;
@@ -25,6 +26,8 @@ body{
 3 - section oqcafe
 4 - section tipo
 5 - section locais
+6 - section newsletter
+7 - section sobre
 
 */
 
@@ -310,9 +313,11 @@ nav ul li:hover:after{
     
 }
 
+/* 6 - section newsletter */
+
 #newsletter h2{
     font-size: 2.25em;
-    font-weight: bold;
+
 }
 
 #newsletter p{
@@ -332,18 +337,37 @@ nav ul li:hover:after{
     padding: 10px;
     border: 3px solid black;
     font-size: 1.5em;
+    font-style: italic;
     width: 320px;
-    background-color:#e7e4d8;
+    background: none;
 }
 
 #newsletter .submissao-email{
     float: left;
     margin: 0 10px;
     width: 460px;
+    
 }
 
 #newsletter {
     background-color: #e7e4d8;
-    padding: 100px 0;
+    padding: 35px 0 100px 0;
 }
 
+/* section sobre */
+
+footer {
+    padding: 40px 0 85px 0;
+    background-color: #d6d3c8;
+
+}
+footer img{
+    float:right;
+    display:block;
+    margin: 0 10px;
+}
+
+footer p{
+    float:left;
+    font-size:1.125em;
+}
