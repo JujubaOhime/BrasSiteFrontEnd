@@ -17,7 +17,10 @@ body {
 	color: #252525;
 }
 
-header div{
+/* MENU */
+
+
+.header-info {
     font-size: 0.875em;
     margin: 0 auto;
     background: #d6d3c8;
@@ -30,23 +33,31 @@ header div{
 header img{
     margin: 0 auto;
     display: block;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
-header nav{
+header .header-menu{
     border-top: solid 3px #d6d3c8;
     border-bottom: solid 3px #d6d3c8;
     text-align: center;
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
-header nav li{
+header .header-menu li{
     display: inline-block;
 }
 
-header nav li a{
+header .header-menu li a{
     text-decoration: none;
     font-size: 1.125em;
-    padding: 0 10px
+    padding: 0 10px;
+    color: #252525;
 
 }
+
+header .header-menu .li-com-pontos::before{
+    content:"•";
+    padding-right: 10px;
+
+}
+
