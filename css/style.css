@@ -354,6 +354,9 @@ nav ul li:hover:after{
 }
 /* 6 - section newsletter */
 
+#newsletter form{
+    margin: 10px 0;
+}
 #newsletter h2{
     font-size: 2.25em;
 }
@@ -408,6 +411,7 @@ nav ul li:hover:after{
     #newsletter .submissao-email{
         width: 290px;
         float: none;   
+        margin: 10px 10px 20px 0px;
     }
 }
 
@@ -415,9 +419,9 @@ nav ul li:hover:after{
 /* section sobre */
 
 footer {
-    padding: 40px 0;
+    padding: 40px 0 90px 0;
     background: #d6d3c8;
-    display: flow-root;
+    display: block;
 
 }
 footer img{
@@ -428,7 +432,7 @@ footer img{
 footer p{
     float:left;
     font-size:1.125em;
-    margin: 0 10px;
+    margin: 0 15px;
     line-height: 1.4em; 
 }   
 
@@ -437,7 +441,7 @@ footer p{
 
 @media(max-width: 740px){
     footer img{
-        margin: 20px 10px;
+        margin: 20px 15px;
         float: none;
     }
     footer p{
@@ -446,6 +450,7 @@ footer p{
     }
     
     footer{
-        display:-webkit-box;
+        display:flex;
+        padding: 40px 0 40px 0;
     }
 }
