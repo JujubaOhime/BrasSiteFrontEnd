@@ -43,8 +43,13 @@ nav ul li a{
     font-size: 1.125em;
 }
 
+nav img{
+    margin-left: 10px;
+}
+
 nav ul{
     float: right;
+    margin-right: 10px;
 }
 
 nav ul li{
@@ -143,11 +148,12 @@ nav ul li:hover:after{
     font-size: 2.25em;
     background-color: #252525;
     padding: 5px 0 10px 0;
-    color: white;
+    color: #fff;
     text-align: center;
     font-style: italic;
     position: relative;
     top: -25px;
+    font-weight: normal;
 }
 
 .valor {
@@ -333,7 +339,7 @@ nav ul li:hover:after{
 @media (max-width: 740px){
     #locais .locais-item img{
         width: 300px;
-        margin: 0;
+        margin: 0 auto 10px auto;
     }
     #locais .locais-item .texto-do-local{
         width: 300px;
@@ -382,6 +388,20 @@ nav ul li:hover:after{
     display:-webkit-box;
 }
 
+@media (max-width: 960px) and (min-width: 741px){
+    #newsletter .submissao-email{
+        width: 350px;
+    }
+}
+
+@media(max-width: 740px){
+    #newsletter .submissao-email{
+        width: 290px;
+        float: none;   
+    }
+}
+
+
 /* section sobre */
 
 footer {
@@ -401,3 +421,18 @@ footer p{
     margin: 0 10px;
     line-height: 1.4em; 
 }   
+
+@media(max-width: 740px){
+    footer img{
+        margin: 20px 10px;
+        float: none;
+    }
+    footer p{
+        width: 300px;
+        float: none;
+    }
+    
+    footer{
+        display:-webkit-box;
+    }
+}
